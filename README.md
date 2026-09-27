@@ -26,6 +26,7 @@ It allows users to remotely control the robot, play sounds, use text-to-speech a
 * A Segway Loomo Developer Kit - Robot for practical testing
 * An Android phone or emulator
 * Both Loomo and the phone need to be connected to the same Wifi network
+* Android SDK Platform 35 and JDK 21 for building the project
 
 ### Installing
 
@@ -33,6 +34,10 @@ It allows users to remotely control the robot, play sounds, use text-to-speech a
 2. Open the project with Android Studio
 3. Connect Android phone via cable OR launch your emulator
 4. Deploy the app on the device
+
+The project uses Gradle 8.9 and Android Gradle Plugin 8.7.3. If building from
+the command line, set `JAVA_HOME` to a JDK 21 installation before running
+`./gradlew assembleDebug`.
 
 ### Usage
 
